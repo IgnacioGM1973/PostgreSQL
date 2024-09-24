@@ -13,6 +13,6 @@ SELECT flight_id
 FROM Flights
 WHERE aircraft_code = '733'
 
-SELECT *	
-FROM tickets
-WHERE passenger_name = 'VALERIY TIKHONOV'
+SELECT *
+FROM Tickets
+WHERE passenger_name LIKE 'IRINA%'
